@@ -14,6 +14,11 @@ The project has been split into several sections/phases, each of which you can r
 
 ## Phase 1: Connecting Headsets and Streaming Data
 
+### Setting Up Your Environmnet
+
+
+### Headset Information
+
 The headset you will be using for the base version of this project is the Muse S Gen 2 (image below). 
 
 ![image](https://github.com/neurotech-berkeley/eeg_mood_hat/assets/74014913/7c564d9f-532d-4f99-be7a-e8cb728cd436)
