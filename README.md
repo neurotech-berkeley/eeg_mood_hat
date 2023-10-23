@@ -14,7 +14,16 @@ The project has been split into several sections/phases, each of which you can r
 
 ## Phase 1: Connecting Headsets and Streaming Data
 
-### Setting Up Your Environmnet
+### Setting Up Your Environment
+Instructions for installing miniconda can be found [here](https://docs.conda.io/projects/miniconda/en/latest/)
+We would recommend installing miniconda from the command line, which can be found at the bottom of the page. Once downloaded and initialized, open a command line interface to manage environments. We'll follow the instructions on [this page](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment). Environments can be used to manage different versions of packages/python without interfering with other projects.
+
+In order to create an environment, run the command "conda create --name [NAME]" where NAME is a name of your choosing. 
+Once the environment has been created, activate it using the command "conda activate [NAME]". If activated properly, the environment name should be shown to the left of the command prompt.
+
+Once the environment has been activated, we want to install python with "conda install python=3.9". If conda asks you "proceed ([y]/n)?", type y and press enter. 
+Now that we have an environment with package managers, we want to install all the versions of the packages we want. These can be found in the requirements.txt file. To install everything, run "pip install -r requirements.txt". This should install everything needed for the project. 
+To deactivate the environment, run "conda deactivate". Make sure to activate and deactivate the environment when you have started/finished your work to keep everything clean.
 
 
 ### Headset Information
